@@ -1,0 +1,13 @@
+---
+name: redis
+
+templates:
+  redis_ctl.erb: bin/redis_ctl
+
+packages:
+- redis
+
+properties:
+  redis.port:
+    description: Port used to connect to Redis
+    default: 6379

@@ -1,0 +1,8 @@
+set -e -x
+
+tar xzf redis/redis-4.0.1.tar.gz
+pushd redis-4.0.1
+  make
+popd
+
+cp -a redis-4.0.1/src/redis* ${BOSH_INSTALL_TARGET}

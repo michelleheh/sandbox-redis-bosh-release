@@ -1,0 +1,15 @@
+name: redis
+version: 0+dev.2
+commit_hash: non-git
+uncommitted_changes: false
+jobs:
+- name: redis
+  version: 01f2ac12bf4354646ec3e1c516c570909d481f1a
+  fingerprint: 01f2ac12bf4354646ec3e1c516c570909d481f1a
+  sha1: 596b49035b5b957e6a657e8821576cd4681d5e94
+packages:
+- name: redis
+  version: 297415a5d7e9f3065f6f073408dd364bdab2a4bc
+  fingerprint: 297415a5d7e9f3065f6f073408dd364bdab2a4bc
+  sha1: 3446f896f273738fa26b9832b96bb94ee1540179
+  dependencies: []
